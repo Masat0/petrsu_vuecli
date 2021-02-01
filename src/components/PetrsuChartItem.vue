@@ -104,7 +104,6 @@ import { Component, Vue, Prop, Ref, Emit, Watch } from "vue-property-decorator";
 import PetrsuChart from "../models/PetrsuChart";
 import BaseDatePicker from "@/components/BaseDatePicker.vue";
 import { Chart } from "highcharts-vue";
-// import * as Highcharts from "highcharts";
 
 import {
   mdiChartLine,
@@ -114,7 +113,7 @@ import {
   mdiBackspace
 } from "@mdi/js";
 import moment from "moment";
-// import { mdiAlertOutline, mdiInformationOutline, mdiMessageAlertOutline, mdiCheckboxMarkedCircleOutline } from "@mdi/js"
+
 @Component({
   components: {
     BaseDatePicker,
