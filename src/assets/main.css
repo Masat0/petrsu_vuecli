@@ -1,0 +1,4 @@
+.required label:after {
+  color: #E53935 !important;
+  content: " *";
+}
